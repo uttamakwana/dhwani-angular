@@ -1,20 +1,5 @@
-.dashboard-header {
-  height: 30svh;
-  display: flex;
-  justify-content: center;
-  padding: var(--padding);
-  background-image: linear-gradient(
-    to bottom,
-    var(--clr-primary-900),
-    var(--clr-secondary-900)
-  );
-  color: var(--clr-white-900);
-  border-bottom-left-radius: 10vmax;
-  border-bottom-right-radius: 10vmax;
-}
-
 .dashboard-display {
-   position: absolute;
+  position: absolute;
   top: 15%;
   left: 0;
   right: 0;

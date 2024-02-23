@@ -1,0 +1,50 @@
+.language-dashboard-content {
+  position: absolute;
+  top: 10svh;
+  left: 0;
+  right: 0;
+  width: calc(100% - 2rem);
+  margin-inline: auto;
+  min-height: 80svh;
+  overflow: auto;
+}
+
+.language-status {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(4px);
+  padding: var(--padding);
+  border-radius: 10px;
+  width: 50%;
+  text-align: center;
+}
+
+.language-status h1 {
+  font-size: 1.5rem;
+  color: var(--clr-primary-900);
+}
+
+.language-status > div {
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: var(--clr-secondary-900);
+  width: 100px;
+  margin-inline: auto;
+  height: 100px;
+  padding: var(--padding);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: calc(var(--margin) / 2);
+}
+
+.language-status-lecture-border {
+  border-radius: 50%;
+  border-top: 10px solid var(--clr-primary-900);
+  border-right: 10px solid var(--clr-primary-900);
+}
+
+.language-status-assessment-border {
+  border-radius: 50%;
+  border-bottom: 10px solid var(--clr-primary-900);
+  border-left: 10px solid var(--clr-primary-900);
+}

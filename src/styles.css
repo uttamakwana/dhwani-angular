@@ -1,6 +1,10 @@
 .header-box {
   min-height: 40svh;
-  background-image: linear-gradient(to bottom, var(--clr-primary-900), var(--clr-secondary-900));
+  background-image: linear-gradient(
+    to bottom,
+    var(--clr-primary-900),
+    var(--clr-secondary-900)
+  );
   color: var(--clr-white-900);
   display: flex;
   justify-content: flex-end;
@@ -10,12 +14,12 @@
 }
 
 .header-box.header-box-invert {
- justify-content: flex-start;
- border-bottom-left-radius: 0;
- border-bottom-right-radius: 20vmax;
+  justify-content: flex-start;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 20vmax;
 }
 
-.header-box-heading{
+.header-box-heading {
   font-size: clamp(2rem, 5vw, 4rem);
   background-image: linear-gradient(
     to bottom,
@@ -79,9 +83,23 @@
 }
 
 .ngx-toastr .toast-title {
- font-size: 1rem !important;
+  font-size: 1rem !important;
 }
 
 .ngx-toastr .toast-message {
- font-size: .9rem !important;
+  font-size: 0.9rem !important;
+}
+
+.main-header-box {
+  height: 30svh;
+  text-align: center;
+  padding: var(--padding);
+  background-image: linear-gradient(
+    to bottom,
+    var(--clr-primary-900),
+    var(--clr-secondary-900)
+  );
+  color: var(--clr-white-900);
+  border-bottom-left-radius: 10vmax;
+  border-bottom-right-radius: 10vmax;
 }
