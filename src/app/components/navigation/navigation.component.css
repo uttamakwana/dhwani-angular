@@ -1,0 +1,26 @@
+.main-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: linear-gradient(
+    to bottom,
+    var(--clr-primary-900),
+    var(--clr-secondary-900)
+  );
+  padding: var(--padding);
+  color: var(--clr-white-900);
+}
+
+.navigation-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.navigation-list-item .mat-icon {
+  overflow: visible;
+}
+
+.navigation-list-item .material-icons {
+  font-size: 32px;
+}

@@ -1,0 +1,49 @@
+<div class="register-page">
+  <div class="register-header header-box header-box-invert">
+    <h1>Register</h1>
+  </div>
+  <div class="register-content content-box">
+    <div class="| container">
+      <div class="register-content-input-container | mt-1 flex-col gap-1">
+        <input
+          type="text"
+          class="register-content-input | input"
+          name="register-username"
+          id="register-username"
+          placeholder="Username"
+        />
+        <input
+          type="email"
+          class="register-content-input | input"
+          name="register-email"
+          id="register-email"
+          placeholder="Email"
+        />
+        <input
+          type="password"
+          class="register-content-input | input"
+          name="register-password"
+          id="register-password"
+          placeholder="Password"
+        />
+        <input
+          type="password"
+          class="register-content-input | input"
+          name="register-confirm-password"
+          id="register-confirm-password"
+          placeholder="Confirm Password"
+        />
+      </div>
+      <div class="register-content-buttno-container | flex-col gap-1 mt-1">
+        <p class="dhwani-text | flex-center gap-4"><mat-icon class="fs-body">verified</mat-icon>
+         I agree to the terms & conditions</p>
+        <button class="dhwani-btn | btn" (click)="handleRegister()">Register</button>
+        <p class="dhwani-text">OR</p>
+        <button class="dhwani-btn btn" (click)="handleSignUpWithGoogle()">Sign up with Google</button>
+        <p class="dhwani-text" (click)="navigateToLogin()">Already have an account?</p>
+
+      </div>
+    </div>
+  </div>
+</div>
+

@@ -1,0 +1,17 @@
+.register-content-input {
+ box-shadow: 0 2px 2px var(--clr-white-700);
+}
+
+.register-content-input::placeholder {
+ font-weight: 500;
+ color: var(--clr-black-900);
+}
+
+.register-header {
+ min-height: 30svh;
+}
+
+.register-content {
+ min-height: 70svh;
+ padding-bottom: 5svh;
+}

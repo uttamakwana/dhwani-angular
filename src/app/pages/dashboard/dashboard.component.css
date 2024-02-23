@@ -1,0 +1,95 @@
+.dashboard-header {
+  height: 30svh;
+  display: flex;
+  justify-content: center;
+  padding: var(--padding);
+  background-image: linear-gradient(
+    to bottom,
+    var(--clr-primary-900),
+    var(--clr-secondary-900)
+  );
+  color: var(--clr-white-900);
+  border-bottom-left-radius: 10vmax;
+  border-bottom-right-radius: 10vmax;
+}
+
+.dashboard-display {
+   position: absolute;
+  top: 15%;
+  left: 0;
+  right: 0;
+  width: calc(100% - 2rem);
+  margin-inline: auto;
+}
+
+.dashboard-screen {
+  background: rgba(255, 255, 255, 0.7);
+  box-shadow: 0 2px 4px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: var(--padding);
+  /* transform: translateY(-15svh); */
+}
+
+.dashboard-screen .welcome {
+ font-size: 1.75rem;
+ font-weight: 800;
+ background-image: linear-gradient(
+    to bottom,
+    var(--clr-primary-900),
+    var(--clr-secondary-900)
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.dashboard-screen .date {
+ font-size: 1rem;
+ font-weight: 800;
+ background-image: linear-gradient(
+    to bottom,
+    var(--clr-primary-900),
+    var(--clr-secondary-900)
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.dashboard-screen .time {
+ font-size: 1.75rem;
+ margin-top: calc(var(--margin) * 2);
+ font-weight: 800;
+ background-image: linear-gradient(
+    to bottom,
+    var(--clr-primary-900),
+    var(--clr-secondary-900)
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.dashboard-content {
+ margin-top: var(--margin);
+}
+
+.dashboard-content .explore {
+ font-weight: 900;
+ color: var(--clr-primary-900);
+}
+
+.dashboard-content .view-all {
+ font-weight: 700;
+ color: var(--clr-secondary-900);
+ font-size: 0.9rem;
+}
+
+.dashboard-content .language {
+ background: var(--clr-white-900);
+ padding: var(--padding);
+ margin-top: var(--margin);
+ border-radius: var(--border-radius);
+ font-weight: 500;
+ color: var(--clr-secondary-900);
+}

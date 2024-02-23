@@ -1,1 +1,87 @@
-/* You can add global styles to this file, and also import other style files */
+.header-box {
+  min-height: 40svh;
+  background-image: linear-gradient(to bottom, var(--clr-primary-900), var(--clr-secondary-900));
+  color: var(--clr-white-900);
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: calc(var(--padding) * 1.5);
+  border-bottom-left-radius: 20vmax;
+}
+
+.header-box.header-box-invert {
+ justify-content: flex-start;
+ border-bottom-left-radius: 0;
+ border-bottom-right-radius: 20vmax;
+}
+
+.header-box-heading{
+  font-size: clamp(2rem, 5vw, 4rem);
+  background-image: linear-gradient(
+    to bottom,
+    var(--clr-white-900),
+    var(--clr-white-700)
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 900;
+}
+
+.content-box {
+  min-height: 60svh;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  text-align: center;
+  justify-content: flex-end;
+  padding-bottom: 10svh;
+}
+
+.dhwani-heading {
+  font-size: 2rem;
+  font-weight: 700;
+  background-image: linear-gradient(
+    to bottom,
+    var(--clr-primary-900),
+    var(--clr-primary-700)
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.dhwani-text {
+  color: var(--clr-primary-900);
+  font-weight: 500;
+  background-image: linear-gradient(
+    to top,
+    var(--clr-primary-900),
+    var(--clr-primary-100)
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+
+.dhwani-btn {
+  align-self: center;
+  background: var(--clr-primary-900);
+  color: var(--clr-white-900);
+  font-weight: 600 !important;
+  border-radius: 100vmax !important;
+  font-size: 1rem !important;
+  padding-inline: 2rem !important;
+  box-shadow: 0 3px 2px var(--clr-white-100);
+}
+
+.ngx-toastr {
+  box-shadow: none !important;
+  border-radius: 10px !important;
+}
+
+.ngx-toastr .toast-title {
+ font-size: 1rem !important;
+}
+
+.ngx-toastr .toast-message {
+ font-size: .9rem !important;
+}

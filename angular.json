@@ -25,7 +25,13 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/custom-theme.scss",
+              "src/styles.css",
+              "src/styles/utils.css",
+              "src/styles/index.css",
+              "src/styles/font.css",
+              "src/styles/color.css",
+              "node_modules/ngx-toastr/toastr.css"
             ],
             "scripts": []
           },

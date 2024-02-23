@@ -1,0 +1,19 @@
+.login-content-input {
+ box-shadow: 0 2px 2px var(--clr-white-700);
+}
+
+.login-content-input::placeholder {
+ font-weight: 500;
+ color: var(--clr-black-900);
+}
+
+.login-header {
+ min-height: 30svh;
+}
+
+.login-content {
+ min-height: 70svh;
+ padding-bottom: 5svh;
+ justify-content: center;
+}
+

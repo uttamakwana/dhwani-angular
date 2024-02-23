@@ -1,0 +1,37 @@
+<div class="login-page">
+  <div class="login-header header-box header-box-invert">
+    <h1>Login</h1>
+  </div>
+  <div class="login-content content-box">
+    <div class="| container">
+      <div class="login-content-input-container | mt-1 flex-col gap-1">
+        <input
+          type="email"
+          class="login-content-input | input"
+          name="login-email"
+          id="login-email"
+          placeholder="Email"
+          value="{{ email }}"
+          (change)="handleEmailChange($event)"
+        />
+        <input
+          type="password"
+          class="login-content-input | input"
+          name="login-password"
+          id="login-password"
+          placeholder="Password"
+          value="{{ password }}"
+          (change)="handlePasswordChange($event)"
+        />
+      </div>
+      <div class="login-content-buttno-container | flex-col gap-1 mt-1">
+        <button class="dhwani-btn | btn" (click)="handleLogin()">Login</button>
+        <p class="dhwani-text">OR</p>
+        <button class="dhwani-btn btn" (click)="handleSignInWithGoogle()">Sign in with Google</button>
+        <p class="dhwani-text" (click)="navigateToRegister()">
+          Don't have an account?
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
